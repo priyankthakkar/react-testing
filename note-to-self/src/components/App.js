@@ -53,7 +53,7 @@ class App extends Component {
                 </Form>
                 {this.renderNotes()}
                 <hr />
-                <Button onClick={this.clearNotes}>Clear the Notes</Button>
+                <Button onClick={this.clearNotes}>Clear Notes</Button>
             </div>
         );
     }
